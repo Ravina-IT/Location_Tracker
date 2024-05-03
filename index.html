@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Location Tracker</h1>
+        </header>
+        <section id="locationSection">
+            <div id="locationData" class="coordinates">
+                <span id="latitude">Latitude:</span>
+                <span id="longitude">Longitude:</span>
+            </div>
+            <br/>
+            <button id="getLocationBtn">Get Location</button>
+        </section><br>
+        <section id="graphSection" style="display: none;">
+            <center><h2>Location History</h2></center><br>
+            <div id="graphContainer"></div><br>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 21ITR086 Ravina. Location Tracker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
